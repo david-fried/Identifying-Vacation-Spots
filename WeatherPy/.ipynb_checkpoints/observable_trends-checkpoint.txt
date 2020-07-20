@@ -1,0 +1,11 @@
+Five observable trends for WeatherPy
+
+1. There is a moderately strong inverted u-shape relationship between latitude and temperature. Temperature is highest at or slightly north of the equator and decreases when moving away from the equator in either direction. This finding is consistent with common sense.
+
+2. In the Northern Hemisphere (i.e., latitude >= 0) regression analysis indicates that 44% of the variation in temperature is explained by latitude.
+
+3. In the Southern Hemisphere (i.e., latitude < 0) regression analysis reveals that latitude explains 57% of the variation in temperature. The finding of a stronger relationship in the Southern Hemisphere is interesting. The reason may have to do with the non-linear relationship observed in the northern hemisphere. Specifically, initially, as one moves north of the equator temperature actually increases slightly, but displays a net decrease over the entire range of latitudes.
+
+4. There is no evidence of a relationship between latitude and humidity for either hemisphere, ps > 0.05.
+
+5. There is no evidence of a relationship between latitude and cloudiness for either hemisphere, ps > 0.05.
