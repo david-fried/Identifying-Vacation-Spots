@@ -52,6 +52,6 @@ Also created a hotel map. Below are the general project steps.
 4. Looped through each city in the new dataframe to find the nearest hotest within 5,000 meters (with itterrows and try, except).
 5. Added hotel locations on top of the humidity heatmap.
 
-![Hotel Map](/VacationPy/output_data/hotel_map.PNG)
+![Hotel Map](/VacationPy/output_data/hotel_map.png)
 
 
