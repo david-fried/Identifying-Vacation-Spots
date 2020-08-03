@@ -16,7 +16,6 @@ Weather data was extracted from [openweathermap.org](https://api.openweathermap.
 3. Created pandas dataframe from lists and exported dataframe to a CSV file to be used on the vacation data.
 4. Analyzed the relationships between latitude and weather with scatterplots and linear regression.
 
-        Code snippet:
           def regression(x, y, x_label, y_label, hemisphere):
               title = f'{hemisphere} Hemisphere:\nRegressing {y_label} on {x_label}'
               (slope, intercept, rvalue, pvalue, stderr) = linregress(x, y)
