@@ -11,7 +11,7 @@ Using WeatherPy.ipynb, extracted data from Open Weather Map API. Used Pandas to 
 Weather data was extracted from [openweathermap.org](https://api.openweathermap.org). Data from each API request was converted to a json object. Below are the general project steps.
 
 1. Generated a list of cities: Looped through a list of over 600 latitude-longitude pairs to find the nearest city using Citipy.
-2. Performed a weather check on each city using a series of successive API calls; saved weather data for each city in lists.
+2. Extracted weather information for each city using a series of successive API calls; saved weather data for each city in lists.
 3. Created a Pandas dataframe from the lists and exported the dataframe to a CSV file ("cities.csv").
 4. Used regression to analyze the influence of latitude on weather. Created visualizations with Matplotlib.
 
