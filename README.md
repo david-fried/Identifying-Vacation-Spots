@@ -37,4 +37,5 @@ Below are the general project steps.
               print()
       
 ![Example of Regression Output](/WeatherPy/output_data/Northern_Hemisphere_Regressing_Max_Temperature_(F)_on_Latitude.png)
+
 ![Example of Regression Interpretation](Interpretation_NH_Temp_Latitude.PNG)
