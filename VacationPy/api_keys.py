@@ -1,2 +1,2 @@
 # Google API Key
-g_key = "AIzaSyD7PsVSBYUY47h2yEFwIjOFXPJ4gunwkCw"
+g_key = [Insert your API key here]
