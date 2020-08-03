@@ -3,7 +3,7 @@
 
 ## General Overview
 
-Using WeatherPy.ipynb, extracted data from Open Weather Map API and used Pandas to create a CSV file of weather data for over 600 cities. Analyzed the influence of latitude on weather using regression; visualized results with Matplotlib. Using VacationPy.ipynb, created a heatmap visualizing differences in humidity between cities; overlayed the map with hotel names for locations experiencing great weather.
+Using WeatherPy.ipynb, extracted data from Open Weather Map API and used Pandas to create a CSV file of weather data for over 600 cities. Analyzed the influence of latitude on weather using regression; visualized results with Matplotlib. Using VacationPy.ipynb, created a heatmap visualizing differences in humidity between cities; overlayed the map with hotels in locations experiencing great weather.
 
 
 ### WeatherPy.ipynb
