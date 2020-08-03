@@ -1,7 +1,13 @@
-# API-Challenge
+# Analysis of Weather and Vacation Data using APIs
 
-# Final Commit
 
-# Note: csv city data was not included per TA's request. CSV data is available upon request, or can be obtained by rerunning the code (although the data will differ slightly).
+## General Overview
 
-# Note: Interpretation of analysis is based on png files.
+This was an assignment I completed for the Northwestern Data Science and Vizualization Bootcamp. I received an A.
+
+I used Jupyter Notebook to extract weather and vacation data from APIs.
+
+## Weather Data
+
+1. Extracted weather data from [openweathermap.org](https://api.openweathermap.org).
+- Converted each successive API call to a json object. 
