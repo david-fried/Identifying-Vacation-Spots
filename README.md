@@ -17,23 +17,23 @@ Below are the general project steps.
 3. Created pandas dataframe from lists and exported dataframe to a CSV file to be used on the vacation data.
 4. Analyzed the relationships between latitude and weather with scatterplots and linear regression.
 
-Code snippet:
-  def regression(x, y, x_label, y_label, hemisphere):
-      title = f'{hemisphere} Hemisphere:\nRegressing {y_label} on {x_label}'
-      (slope, intercept, rvalue, pvalue, stderr) = linregress(x, y)
-      regress_values = x * slope + intercept
-      line_eq = "y = " + str(round(slope,2)) + "x + " + str(round(intercept,2))
-      plt.scatter(x, y)
-      plt.plot(x,regress_values,"r-")
-      plt.xlabel(x_label)
-      plt.ylabel(y_label)
-      plt.title(title)
-      title = title.replace(':\n', '_').replace(' ', '_')
-      plt.savefig(f'output_data/{title}.png')
-      plt.show()
-      print(line_eq)
-      print()
-      print(f"r = {pearsonr(x, y)[0]:.2f}, p = {pearsonr(x, y)[1]:.4f}, r_squared = {rvalue**2:.2f}")
-      print()
+        Code snippet:
+          def regression(x, y, x_label, y_label, hemisphere):
+              title = f'{hemisphere} Hemisphere:\nRegressing {y_label} on {x_label}'
+              (slope, intercept, rvalue, pvalue, stderr) = linregress(x, y)
+              regress_values = x * slope + intercept
+              line_eq = "y = " + str(round(slope,2)) + "x + " + str(round(intercept,2))
+              plt.scatter(x, y)
+              plt.plot(x,regress_values,"r-")
+              plt.xlabel(x_label)
+              plt.ylabel(y_label)
+              plt.title(title)
+              title = title.replace(':\n', '_').replace(' ', '_')
+              plt.savefig(f'output_data/{title}.png')
+              plt.show()
+              print(line_eq)
+              print()
+              print(f"r = {pearsonr(x, y)[0]:.2f}, p = {pearsonr(x, y)[1]:.4f}, r_squared = {rvalue**2:.2f}")
+              print()
       
 ![Example of Regression Output] (/WeatherPy/output_data/Northern_Hemisphere_Regressing_Max_Temperature_(F)_on_Latitude.png)
