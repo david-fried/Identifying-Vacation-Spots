@@ -3,8 +3,6 @@
 
 ## General Overview
 
-This was an assignment I completed for the Northwestern Data Science and Vizualization Bootcamp. I received an A.
-
 For WeatherPy, I used Jupyter Notebook, a weather website API, and pandas to create a csv file of weather data for over 600 cities. I investigated relationships between latitude and different weather patterns using scatterplots and regression. Using the data generated from WeatherPy, for VacationPy I created a map showing visual differences in humidities for each city. Finally, I added hotel locations for cities with good weather to the map.
 
 ### WeatherPy
