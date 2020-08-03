@@ -1,19 +1,19 @@
-# Analysis of Weather and Vacation Data using APIs
+# Analysis of Weather using APIs
 
 
 ## General Overview
 
 This was an assignment I completed for the Northwestern Data Science and Vizualization Bootcamp. I received an A.
 
-I used Jupyter Notebook to extract weather and vacation data from APIs.
+I used Jupyter Notebook to extract weather data from APIs.
 
-### Weather Data
+### WeatherPy
 
 Weather data was extracted from [openweathermap.org](https://api.openweathermap.org). Data from each API request was converted to a json object.
 Below are the general project steps.
 
 1. Generated a list of cities: Looped through a list of over 600 latitude-longitude pairs to find the nearest city using citipy.
-2. Performed a weather check on each city using a series of successive API calls; saved weather data for each city in lists.
+2. Performed a weather check on each city using a series of successive API calls with for loop and try, except; saved weather data for each city in lists.
 3. Created pandas dataframe from lists and exported dataframe to a CSV file to be used on the vacation data.
 4. Analyzed the relationships between latitude and weather with scatterplots and linear regression.
 
@@ -39,3 +39,19 @@ Below are the general project steps.
 ![Example of Regression Output](/WeatherPy/output_data/Northern_Hemisphere_Regressing_Max_Temperature_(F)_on_Latitude.png)
 
 ![Example of Regression Interpretation](/WeatherPy/output_data/Interpretation_NH_Temp_Latitude.PNG)
+
+
+### VacationPy
+
+Created a heatmap with [Google Maps Platform](https://maps.googleapis.com) and csv file ("cities.csv") generated from WeatherPy code.
+Also created a hotel map. Below are the general project steps.
+
+1. Loaded cities.csv data into a pandas dataframe.
+2. Used gmaps to create a heatmap showing the degree of humidity levels for each city.
+3. Created new dataframe of cities with great weather conditions.
+4. Looped through each city in the new dataframe to find the nearest hotest within 5,000 meters (with itterrows and try, except).
+5. Added hotel locations on top of the humidity heatmap.
+
+![Hotel Map](/VacationPy/output_data/hotel_map.PNG)
+
+
