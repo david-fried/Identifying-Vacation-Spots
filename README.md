@@ -40,7 +40,7 @@ Weather data was extracted from [openweathermap.org](https://api.openweathermap.
 
 ### VacationPy.ipynb
 
-Created a heatmap with [Google Maps Platform](https://maps.googleapis.com) and the CSV file generated from WeatherPy.ipynb ("cities.csv"). The heatmap visualizes differences in humidity between cities. Identified cities experiencing great weather; for each of these cities, found the nearest hotel within a 5,000 meter radius and added the hotel name to the heatmap.
+Created a heatmap with [Google Maps Platform](https://maps.googleapis.com) and the CSV file generated from WeatherPy.ipynb ("cities.csv"). The heatmap visualizes differences in humidity between cities. Identifies cities experiencing great weather; for each of these cities, finds the nearest hotel within a 5,000 meter radius and adds the hotel name to the heatmap.
 
 ![Hotel Map](/VacationPy/output_data/hotel_map.png)
 
