@@ -3,12 +3,12 @@
 
 ## General Overview
 
-Using WeatherPy.ipynb, extracted data from Open Weather Map API. Used Pandas to create a CSV file of weather data for over 600 cities. Analyzed the influence of latitude on weather using regression; visualized results with Matplotlib. Using VacationPy.ipynb, created a heatmap visualizing differences in humidity between cities; overlayed the map with hotels in locations experiencing great weather.
+Using WeatherPy.ipynb, extracts data from Open Weather Map API and creates a CSV file of weather information for several hundred cities throughout the world. Analyzes the influence of latitude on weather using regression; visualizes results with Matplotlib. Using VacationPy.ipynb, creates a heatmap that visualizes differences in humidity between cities; overlayes the map with hotels from locations experiencing great weather.
 
 
 ### WeatherPy.ipynb
 
-Weather data was extracted from [openweathermap.org](https://api.openweathermap.org). Data from each API request was converted to a json object. Below are the general project steps.
+Weather data was extracted from [openweathermap.org](https://api.openweathermap.org). Data from each API request were converted to a json object. Below are the general project steps.
 
 1. Generated a list of cities: Looped through a list of over 600 latitude-longitude pairs to find the nearest city using Citipy.
 2. Extracted weather information for each city using a series of successive API calls; saved weather data for each city in lists.
